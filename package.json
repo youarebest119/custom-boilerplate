@@ -1,0 +1,17 @@
+{
+  "name": "create-vite-bootstrap",
+  "version": "1.1.1",
+  "description": "A custom command to create a Vite project with Bootstrap",
+  "main": "index.js",
+  "bin": {
+    "create-vite-bootstrap": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0",
+    "react-bootstrap": "^2.10.2",
+    "vite": "^3.0.0"
+  }
+}
